@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #5b2386;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center; /* 가로 가운데 정렬 */
+    align-items: center; /* 세로 가운데 정렬 */
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+  }
+  
+  img {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* 이미지 위치 설정 */
+  .frame1 {
+    width: 564px;
+    height: 112px;
+    top: 273px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .frame12 {
+    width: 261px;
+    height: 265px;
+    top: 199px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .따움표 {
+    width: 261px;
+    height: 265px;
+    top: 199px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .frame11 {
+    width: 64px;
+    height: 72px;
+    top: 1085px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .위니브 {
+    width: 125px;
+    height: 25
+  

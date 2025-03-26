@@ -1,0 +1,328 @@
+@font-face {
+  font-family: "OTEnjoystoriesBA";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  white-space: nowrap;
+}
+
+body {
+  background-color: #5b2386;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  overflow-x: auto;
+}
+
+section {
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  font-family: "Noto Sans KR", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+footer .footer-logo {
+  width: 125px;
+  height: 25px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+footer p {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 100%;
+  margin-top: 20px;
+}
+
+output {
+  font-size: 72px;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.img1,
+.img2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.img1 {
+  margin-top: 273px;
+}
+
+.img2 {
+  top: 199px;
+  width: 261px;
+  height: 265px;
+  z-index: 0;
+}
+
+h1 {
+  font-family: "OTEnjoystoriesBA", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #f5df4d;
+  position: relative;
+  top: 510px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+p {
+  font-family: "GmarketSansMedium", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  position: relative;
+  margin-top: 628px;
+  margin-bottom: 102px;
+  line-height: 1.5;
+}
+
+p strong {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.overlay-img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 493px;
+  height: auto;
+  z-index: -1;
+}
+
+.text-container {
+  font-family: "GmarketSansMedium", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  position: absolute;
+  top: 815px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+input[type="text"] {
+  width: 228px;
+  height: 58px;
+  border-radius: 7px;
+  font-family: "GmarketSansMedium", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  color: #babcbe;
+}
+
+.line-break {
+  display: block;
+  margin-bottom: 27px;
+}
+
+.time {
+  font-family: "GmarketSansMedium", sans-serif;
+  color: #ffffff;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  position: relative;
+  margin-top: 115px;
+  margin-bottom: 175px;
+}
+
+.btn {
+  font-family: "GmarketSansMedium", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #5b2386;
+  background-color: #fcee21;
+  width: 565px;
+  height: 66px;
+  border-radius: 56px;
+  padding: 21px 49px;
+  gap: 10px;
+  white-space: nowrap;
+  line-height: 100%;
+  position: relative;
+  margin-top: 50px;
+}
+
+.button-img {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  width: 64px;
+  height: 72px;
+}
+
+.check-container {
+  margin-top: 147px;
+  margin-bottom: 115px;
+  position: relative;
+  display: block;
+}
+
+a {
+  font-family: "GmarketSansMedium", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 66px;
+  color: #5b2386;
+  background-color: #fcee21;
+  width: 356px;
+  height: 66px;
+  border-radius: 56px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+button {
+  font-family: "GmarketSansMedium", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  color: #5b2386;
+  background-color: #ffffff;
+  width: 191px;
+  height: 66px;
+  border-radius: 56px;
+}
+
+/* 모바일 */
+
+@media (max-width: 360px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .img1,
+  .img2 {
+    margin: 0;
+    padding: 0;
+  }
+  .img1 {
+    position: absolute;
+    top: 76px;
+    width: 267px;
+    height: 53px;
+    z-index: 1;
+  }
+  .img2 {
+    position: absolute;
+    top: 41px;
+    width: 125px;
+    height: 126px;
+    z-index: 0;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  h1 {
+    width: 297px;
+    height: 24px;
+    top: 198px;
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    position: absolute;
+    top: 284px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    width: 290px;
+    height: 68px;
+    text-align: center;
+    line-height: 2;
+  }
+p strong {
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.text-container {
+  font-weight: 400;
+  font-size: 14px;
+  top: 308px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 0;
+}
+
+input[type="text"] {
+  width: 311px;
+  height: 37px;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  top: 442px;
+  left: 25px;
+  position: absolute;
+}
+
+}
